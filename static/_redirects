@@ -1,0 +1,2 @@
+/api/*  https://www.google.co.jp/search:splat  200
+/*    /index.html   200
