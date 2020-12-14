@@ -1,0 +1,32 @@
+{
+  "name": "wttt-2020",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "core-js": "^3.6.5",
+    "firebase": "^8.1.2",
+    "imagesloaded": "^4.1.4",
+    "install": "^0.13.0",
+    "masonry-layout": "^4.2.2",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "sass-loader": "^10.1.0",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-masonry": "^0.12.0",
+    "vue-no-ssr": "^1.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "push-dir": "^0.4.1"
+  }
+}
