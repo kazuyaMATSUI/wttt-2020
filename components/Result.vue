@@ -93,7 +93,6 @@ export default {
                 const $ = cheerio.load(res)
                 $("img").each((index, element)=>{
                     var url = element.attribs['data-src']
-                    console.log(url)
                     if(url !== undefined){
                         this.suggested_items.push({
                             url: url

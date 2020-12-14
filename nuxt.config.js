@@ -6,7 +6,8 @@ const {
     STORAGE_BUCKET,
     MESSAGING_SENDER_ID,
     APP_ID,
-    MEASUREMENT_ID
+    MEASUREMENT_ID,
+    BASE_URL
 } = process.env;
 
 export default {
@@ -47,7 +48,8 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    proxy: true
+    proxy: true,
+    baseURL: BASE_URL
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
